@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Cheick Abdoul Khadre DIALLO - Ingénieur Informaticien & Créateur de Contenu</title>
+    <meta name="description" content="CV de Cheick Abdoul Khadre DIALLO - Ingénieur informaticien, infographiste et créateur de contenu freelance avec 6+ années d'expérience. Spécialiste en développement web, design graphique et création de contenu digital.">
+    <meta name="keywords" content="Cheick DIALLO, Ingénieur informatique, Infographiste, Créateur contenu, Freelancer, Développeur web, Designer graphique, Conakry Guinée">
+    <meta name="author" content="Cheick Abdoul Khadre DIALLO">
+    
+    <!-- Open Graph Meta Tags (Réseaux sociaux) -->
+    <meta property="og:title" content="Cheick Abdoul Khadre DIALLO - CV Professionnel">
+    <meta property="og:description" content="Ingénieur informaticien & créateur de contenu freelance - 6+ ans d'expérience">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cheick Abdoul Khadre DIALLO - CV">
+    <meta name="twitter:description" content="Ingénieur informaticien & créateur de contenu freelance">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzM0OThkYiIvPgo8dGV4dCB4PSIxNiIgeT0iMjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DRDwvdGV4dD4KPC9zdmc+">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://votre-nom-utilisateur.github.io/cv/">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Cheick Abdoul Khadre DIALLO",
+        "jobTitle": "Ingénieur Informaticien & Créateur de Contenu",
+        "url": "https://www.cheickinfoline.web.app",
+        "email": "cheickabdoulkhadrediallo@hotmail.com",
+        "telephone": "+224625060672",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Conakry",
+            "addressCountry": "GN"
+        },
+        "knowsAbout": ["Développement Web", "Design Graphique", "Création de Contenu", "Administration Réseau"],
+        "alumniOf": "Université Kofi Annan",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Editions Yigui"
+        }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            font-weight: 300;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header .subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95em;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 0;
+            min-height: 800px;
+        }
+
+        .sidebar {
+            background: linear-gradient(180deg, #34495e 0%, #2c3e50 100%);
+            color: white;
+            padding: 50px 35px;
+            position: relative;
+        }
+
+        .sidebar::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, #3498db, #2980b9);
+        }
+
+        .content {
+            padding: 50px 45px;
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+        }
+
+        .section {
+            margin-bottom: 45px;
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.6em;
+            margin-bottom: 25px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #3498db;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: #e74c3c;
+        }
+
+        .sidebar h2 {
+            color: #ecf0f1;
+            font-size: 1.4em;
+            margin-bottom: 25px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 35px;
+            padding: 25px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+        }
+
+        .experience-item:hover, .education-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .job-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .company {
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .achievements {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .achievements li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.7;
+        }
+
+        .achievements li::before {
+            content: "✓";
+            color: #27ae60;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .skills-grid {
+            display: grid;
+            gap: 20px;
+        }
+
+        .skill-category {
+            margin-bottom: 25px;
+        }
+
+        .skill-category h3 {
+            color: #ecf0f1;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #3498db;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: default;
+        }
+
+        .skill-tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+
+        .languages {
+            margin-bottom: 35px;
+        }
+
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .language-level {
+            color: #3498db;
+            font-weight: 600;
+        }
+
+        .profile-text {
+            text-align: justify;
+            line-height: 1.9;
+            color: #555;
+            font-size: 1.05em;
+        }
+
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .interest-item {
+            background: linear-gradient(135deg, #ecf0f1, #bdc3c7);
+            color: #2c3e50;
+            padding: 10px 18px;
+            border-radius: 25px;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+        }
+
+        .interest-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #3498db 0%, #2c3e50 100%);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(52, 152, 219, 0.3);
+        }
+
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 5px 20px rgba(231, 76, 60, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(231, 76, 60, 0.6);
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                max-width: none;
+                border-radius: 0;
+            }
+            
+            .main-content {
+                min-height: auto;
+            }
+            
+            .download-btn {
+                display: none;
+            }
+            
+            .header::before {
+                animation: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2.2em;
+            }
+            
+            .content, .sidebar {
+                padding: 30px 25px;
+            }
+            
+            .download-btn {
+                bottom: 20px;
+                right: 20px;
+                padding: 12px 16px;
+            }
+        }
+
+        /* Animation au chargement */
+        .container {
+            animation: slideIn 0.8s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>Cheick Abdoul Khadre DIALLO</h1>
+                <div class="subtitle">Ingénieur Informaticien • Infographiste • Créateur de Contenu • Freelancer</div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        📧 <a href="mailto:cheickabdoulkhadrediallo@hotmail.com">cheickabdoulkhadrediallo@hotmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        📱 <a href="tel:+224625060672">+224 625 06 06 72</a>
+                    </div>
+                    <div class="contact-item">
+                        🌐 <a href="https://www.cheickinfoline.web.app" target="_blank">www.cheickinfoline.web.app</a>
+                    </div>
+                    <div class="contact-item">
+                        📍 Conakry, GUINÉE
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="section">
+                    <h2>🛠️ COMPÉTENCES</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Développement Web</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">jQuery</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">SQL</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Design & Création</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">Photoshop</span>
+                                <span class="skill-tag">Illustrator</span>
+                                <span class="skill-tag">InDesign</span>
+                                <span class="skill-tag">After Effects</span>
+                                <span class="skill-tag">Premiere Pro</span>
+                                <span class="skill-tag">CorelDRAW</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Contenu Digital</h3>
+                            <div class="skills-list">
+                                <span class="skill-tag">Réseaux Sociaux</span>
+                                <span class="skill-tag">Vidéo Marketing</span>
+                                <span class="skill-tag">Branding</span>
+                                <span class="skill-tag">Community Mgmt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section languages">
+                    <h2>🌍 LANGUES</h2>
+                    <div class="language-item">
+                        <span>Français</span>
+                        <span class="language-level">Natif</span>
+                    </div>
+                    <div class="language-item">
+                        <span>Anglais</span>
+                        <span class="language-level">Professionnel</span>
+                    </div>
+                    <div class="language-item">
+                        <span>Espagnol</span>
+                        <span class="language-level">Intermédiaire</span>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🎯 CENTRES D'INTÉRÊT</h2>
+                    <div class="interests">
+                        <div class="interest-item">🎬 Cinéma</div>
+                        <div class="interest-item">🎵 Musique</div>
+                        <div class="interest-item">✈️ Voyages</div>
+                        <div class="interest-item">🎮 Gaming</div>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="content">
+                <div class="section">
+                    <h2>👤 PROFIL PROFESSIONNEL</h2>
+                    <p class="profile-text">
+                        Ingénieur informaticien, infographiste et créateur de contenu polyvalent avec <span class="highlight">6+ années d'expérience</span> dans la création de contenu graphique, le développement web et la gestion de systèmes informatiques. Expert en création de contenu multimédia, design visuel et services freelance. Reconnu pour mon perfectionnisme, ma créativité et mon excellent sens de l'éthique professionnelle.
+                    </p>
+                </div>
+
+                <div class="section">
+                    <h2>💼 EXPÉRIENCES PROFESSIONNELLES</h2>
+                    
+                    <div class="experience-item">
+                        <div class="job-title">Créateur de Contenu & Freelancer</div>
+                        <div class="company">Activité Indépendante</div>
+                        <div class="date">2019 - Présent (5+ ans)</div>
+                        <ul class="achievements">
+                            <li><span class="highlight">20+ clients</span> dans divers secteurs avec 100% de recommandations</li>
+                            <li>Création de <span class="highlight">100+ designs</span> pour réseaux sociaux</li>
+                            <li>Développement de <span class="highlight">5+ sites web</span> professionnels</li>
+                            <li>Production de <span class="highlight">30+ vidéos</span> promotionnelles</li>
+                            <li>Formation de <span class="highlight">50+ personnes</span> en design et développement</li>
+                            <li>Services : branding, consultation digitale, stratégie de contenu</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="job-title">Chef Service Informatique</div>
+                        <div class="company">Editions Yigui</div>
+                        <div class="date">2021 - Présent (3+ ans)</div>
+                        <ul class="achievements">
+                            <li>Conception de <span class="highlight">50+ couvertures</span> avec +30% d'augmentation des ventes</li>
+                            <li>Développement et maintenance du site web de la maison d'édition</li>
+                            <li>Gestion complète des systèmes informatiques (réseau, bases de données)</li>
+                            <li>Création de contenus sociaux avec <span class="highlight">+200% d'engagement</span></li>
+                            <li>Support technique pour équipe de 15+ employés</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="job-title">Employé Informatique</div>
+                        <div class="company">RKOMP - GIMEG</div>
+                        <div class="date">2020 - 2021 (1 an)</div>
+                        <ul class="achievements">
+                            <li>Gestion des systèmes informatiques - secteur énergétique</li>
+                            <li>Support technique spécialisé en énergie solaire photovoltaïque</li>
+                            <li>Création de contenus visuels pour communication d'entreprise</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🎓 FORMATION</h2>
+                    
+                    <div class="education-item">
+                        <div class="job-title">Licence en Administration Réseau</div>
+                        <div class="company">Université Kofi Annan</div>
+                        <div class="date">2017 - 2021 | Conakry, GUINÉE</div>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="job-title">English Computer Science</div>
+                        <div class="company">Formation Complémentaire</div>
+                        <div class="date">2019 - 2021</div>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="job-title">Baccalauréat Unique - Sciences Expérimentales</div>
+                        <div class="company">Complexe Scolaire Cdt Lansana CAMARA</div>
+                        <div class="date">2017 | Kamsar, GUINÉE</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🏆 RÉALISATIONS CLÉS</h2>
+                    <ul class="achievements">
+                        <li><span class="highlight">Portfolio Freelance</span> : 20+ clients avec 100% de recommandations</li>
+                        <li>Conception de plus de <span class="highlight">50 couvertures</span> de livres primées</li>
+                        <li><span class="highlight">Chaîne de contenu</span> : Production régulière de tutoriels éducatifs</li>
+                        <li>Campagnes visuelles générant <span class="highlight">+200% d'engagement</span></li>
+                        <li>Formation dispensée à <span class="highlight">50+ personnes</span> en design/développement</li>
+                        <li>Développement de solutions web sur mesure pour PME locales</li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bouton de téléchargement PDF -->
+    <a href="#" class="download-btn" onclick="window.print(); return false;">
+        📄 Télécharger PDF
+    </a>
+
+    <!-- Script pour améliorer l'expérience utilisateur -->
+    <script>
+        // Animation smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation d'apparition progressive des sections
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'all 0.6s ease-out';
+            observer.observe(section);
+        });
+
+        // Analytics simple (optionnel)
+        console.log('CV de Cheick Abdoul Khadre DIALLO chargé avec succès');
+    </script>
+</body>
+</html>
